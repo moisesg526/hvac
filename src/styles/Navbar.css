@@ -1,16 +1,16 @@
 nav {
-    padding: 20px;
-    display: flex;
-    justify-content:space-between ;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 li {
-    display: inline;
-    padding: 20px;
-    cursor: pointer;
-}
+  display: inline;
+  padding: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=Navbar.css.map */
