@@ -1,16 +1,40 @@
 nav {
     padding: 20px;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
+
+    .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    li {
+        display: none;
+        padding: 0.4rem;
+        font-size: 0.5rem;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #dcdcdc;
+        }
+    }
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-}
 
-li {
-    display: inline;
-    padding: 20px;
-    cursor: pointer;
+@media only screen and (min-width: 1025px) {
+    nav {
+        padding: 2rem;
+        display: flex;
+        justify-content:space-between ;
+
+        li {
+            display: inline;
+            padding: 1rem;
+            font-size: 0.8rem;
+
+            &:hover {
+                background-color: #dcdcdc;
+            }
+        }
+    }
 }

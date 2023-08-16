@@ -3,14 +3,32 @@ nav {
   display: flex;
   justify-content: center;
 }
-
-.logo {
+nav .logo {
   display: flex;
   align-items: center;
 }
-
-li {
-  display: inline;
-  padding: 20px;
+nav li {
+  display: none;
+  padding: 0.4rem;
+  font-size: 0.5rem;
   cursor: pointer;
+}
+nav li:hover {
+  background-color: #dcdcdc;
+}
+
+@media only screen and (min-width: 1025px) {
+  nav {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav li {
+    display: inline;
+    padding: 1rem;
+    font-size: 0.8rem;
+  }
+  nav li:hover {
+    background-color: #dcdcdc;
+  }
 }/*# sourceMappingURL=Navbar.css.map */
