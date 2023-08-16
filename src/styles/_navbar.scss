@@ -10,6 +10,10 @@ nav {
     .hamburger-icon {
         cursor: pointer;
     }
+
+    ul {
+        display: none;
+    }
 }
 
 
@@ -39,8 +43,11 @@ nav {
             align-items: center;
         }
 
-        li {
+        ul {
             display: inline;
+        }
+
+        li {
             padding: 1rem;
             font-size: 1rem;
             cursor: pointer;

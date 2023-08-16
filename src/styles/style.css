@@ -9,6 +9,9 @@ nav .logo {
 nav .hamburger-icon {
   cursor: pointer;
 }
+nav ul {
+  display: none;
+}
 
 @media only screen and (min-width: 700px) and (max-width: 1024px) {
   nav {
@@ -31,8 +34,10 @@ nav .hamburger-icon {
     display: flex;
     align-items: center;
   }
-  nav li {
+  nav ul {
     display: inline;
+  }
+  nav li {
     padding: 1rem;
     font-size: 1rem;
     cursor: pointer;
@@ -43,4 +48,7 @@ nav .hamburger-icon {
   nav .dropdown-btn {
     display: none;
   }
+}
+.main-container {
+  background-image: url("../images/bb-bridge.jpg");
 }/*# sourceMappingURL=style.css.map */
