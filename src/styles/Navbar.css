@@ -1,34 +1,46 @@
 nav {
-  padding: 20px;
+  padding: 2rem 3rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 nav .logo {
-  display: flex;
-  align-items: center;
+  font-size: 0.8rem;
 }
-nav li {
-  display: none;
-  padding: 0.4rem;
-  font-size: 0.5rem;
+nav .hamburger-icon {
   cursor: pointer;
 }
-nav li:hover {
-  background-color: #dcdcdc;
-}
 
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+  nav {
+    padding: 4rem;
+  }
+  nav .logo {
+    font-size: 1.2rem;
+  }
+  nav .hamburger-icon {
+    font-size: 1.4rem;
+  }
+}
 @media only screen and (min-width: 1025px) {
   nav {
     padding: 2rem;
-    display: flex;
     justify-content: space-between;
+  }
+  nav .logo {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
   }
   nav li {
     display: inline;
     padding: 1rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
+    cursor: pointer;
   }
   nav li:hover {
-    background-color: #dcdcdc;
+    color: #686868;
+  }
+  nav .dropdown-btn {
+    display: none;
   }
 }/*# sourceMappingURL=Navbar.css.map */
