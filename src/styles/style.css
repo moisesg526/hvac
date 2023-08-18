@@ -69,11 +69,17 @@ nav ul {
   position: absolute;
   height: 30vh;
   width: 40vw;
-  top: 20%;
-  left: 5%;
+  top: 15%;
+  right: 15%;
 }
 .main-content .appointment-btn {
-  padding: 0.5rem;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.7rem;
   margin: auto;
   display: flex;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  background-color: rgba(130, 130, 130, 0.8);
 }/*# sourceMappingURL=style.css.map */
