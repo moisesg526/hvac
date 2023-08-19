@@ -19,13 +19,15 @@
     position: absolute;
     height: 30vh;
     width: 40vw;
-    top: 15%;
-    right: 15%;
+    top: 20%;
+    right: 14%;
+    filter: drop-shadow(2px 4px 8px #585858);
 
     .appointment-btn {
         cursor: pointer;
         color: #fff;
         font-size: 1rem;
+        font-weight: 700;
         padding: 0.7rem;
         margin: auto;
         display: flex;
