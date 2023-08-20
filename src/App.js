@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/Footer';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
 import Pitch from './components/Pitch';
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <Main />
       <Pitch />
+      <Footer />
     </div>
   );
 }
