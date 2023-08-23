@@ -1,0 +1,50 @@
+.footer-container {
+    position: relative;
+    margin: 20rem 0 0;
+    display: grid;
+}
+
+.left-footer {
+    ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        gap: 0.5rem;
+    }
+}
+
+.right-footer {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+    .left-footer {
+        ul {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            font-size: 1.1rem;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 1025px) {
+    .footer-container {
+        position: absolute;
+        bottom: 0px;
+        display: flex;
+        justify-content: space-around;
+        width: 100%
+    }
+
+    .left-footer {
+        ul {
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+        }
+    }
+}
