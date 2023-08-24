@@ -133,6 +133,29 @@ nav ul {
     margin: auto;
   }
 }
+.whyus-container {
+  position: relative;
+  text-align: center;
+  margin: 15rem 0;
+  background-image: linear-gradient(rgb(159, 196, 217), rgb(72, 79, 181));
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.why-icon {
+  color: #fff;
+}
+
 .footer-container {
   position: relative;
   margin: 20rem 0 0;
@@ -162,7 +185,6 @@ nav ul {
 }
 @media only screen and (min-width: 1025px) {
   .footer-container {
-    position: absolute;
     bottom: 0px;
     display: flex;
     justify-content: space-around;
