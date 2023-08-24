@@ -134,26 +134,31 @@ nav ul {
   }
 }
 .whyus-container {
+  padding: 1rem 0 2rem;
   position: relative;
   text-align: center;
   margin: 15rem 0;
   background-image: linear-gradient(rgb(159, 196, 217), rgb(72, 79, 181));
 }
 
-.row1 {
-  display: flex;
-  justify-content: center;
+.row {
+  display: grid;
   gap: 2rem;
+  padding: 1rem;
 }
 
-.row2 {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+.reasons {
+  background-color: #fff;
+  width: 50vw;
+  height: 20vh;
+  padding: 1rem;
+  margin: auto;
 }
 
 .why-icon {
-  color: #fff;
+  color: #000;
+  font-size: 2rem;
+  padding: 1rem;
 }
 
 .footer-container {
