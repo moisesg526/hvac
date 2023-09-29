@@ -1,3 +1,5 @@
+import { Routes, Route } from "react-router-dom";
+import About from "./components/pages/About";
 import './App.css';
 import Footer from './components/Footer';
 import Main from './components/Main';
@@ -13,6 +15,9 @@ function App() {
       <Pitch />
       <Whyus />
       <Footer />
+      <Routes>
+        <Route path="about" element={About}/>
+      </Routes>
     </div>
   );
 }
