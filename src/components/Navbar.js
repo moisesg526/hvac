@@ -1,12 +1,17 @@
+import { Link } from "react-router-dom";
 import "../styles/style.css";
 function Navbar() {
   return (
     <nav>
       <div className="logo">HVAC</div>
       <ul>
-        <li>Home</li>
+        <li>
+          <Link to="/">Home</Link>
+        </li>
+        <li>
+          <Link to="/about">About Us</Link>
+          </li>
         <li>Services</li>
-        <li>About Us</li>
         <li>Reviews</li>
         <li>Contact Us</li>
       </ul>
