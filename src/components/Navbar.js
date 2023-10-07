@@ -10,10 +10,16 @@ function Navbar() {
         </li>
         <li>
           <Link to="/about">About Us</Link>
-          </li>
-        <li>Services</li>
-        <li>Reviews</li>
-        <li>Contact Us</li>
+        </li>
+        <li>
+          <Link to="/services">Services</Link>
+        </li>
+        <li>
+          <Link to="/reviews">Reviews</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact Us</Link>
+        </li>
       </ul>
       <div className="dropdown-btn">
         <i className="fa-solid fa-bars"></i>
