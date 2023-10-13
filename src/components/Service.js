@@ -1,3 +1,6 @@
+import AC from "../images/ac.jpg";
+import Radiator from "../images/radiator.jpg";
+import WaterTank from "../images/water-tank.jpg";
 import "../styles/style.css";
 
 function Service() {
@@ -9,7 +12,7 @@ function Service() {
       </div>
       <div className="services-provided">
         <div className="service">
-          <img src="ac.jpg" alt="air conditioning" />
+          <img src={AC} alt="air conditioning" className="service-imgs" />
           <h3>Air Conditioning</h3>
           <h4>
             We provide services for commercial properties or for your home. We
@@ -18,7 +21,7 @@ function Service() {
           </h4>
         </div>
         <div className="service">
-          <img src="" alt="Heating" />
+          <img src={Radiator} alt="Heating" className="service-imgs" />
           <h3>Heating</h3>
           <h4>
             We service, maintain and replace all types of heating systems. We
@@ -28,7 +31,7 @@ function Service() {
           </h4>
         </div>
         <div className="service">
-          <img src="" alt="Water Heaters" />
+          <img src={WaterTank} alt="Water Heaters" className="service-imgs" />
           <h3>Water Heaters</h3>
           <h4>
             We service and replace all types of water heaters includint gas,
